@@ -28,17 +28,40 @@ nav {
     align-items: center;
 }
 .home {
-    width: 110%;
-    height: 155%;
+    width: 95%;
+    height: 95%;
+    display : flex;
+    justify-content: center ;
+    align-items: center;
     background-image:url("../image/peinturedepart.png");
 }
 .page {
+    width: 90%;
+    height: 90%;
+    display : flex;
+    justify-content: center ;
+    align-items: left;
     background-image:url("../image/peinturedepartj.jpg");
     background-image:linear-gradient( rgba(201, 224, 233, 0.5),rgba(146, 241, 210, 0.623));
 }
 .fond {
-    background-image:url("../image/bouteillemer.jpg");
+    width: 50%;
+    height: 50%;
+    list-style-type: none;
+    display : flex;
+    justify-content: center ;
+    align-items: left;
 }
+.parag{
+    width: 100%;
+    height: 100%;
+    background-image:url("../image/fond.jpg");
+    background-image:linear-gradient( rgba(241, 178, 95, 0.705),rgba(110, 124, 119, 0.623));
+    list-style-type: none;
+    display : flex;
+    justify-content: center ;
+    align-items: left;
+    }
 
 /* effets sur clic */
 .clickAnim {
