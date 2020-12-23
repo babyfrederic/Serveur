@@ -31,9 +31,9 @@ nav {
 .home {
     width: 110%;
     height: 155%;
-    background-image:url("../image/peinturedepart.png");
+    background-image:url("../image/peinturedepart.png"),url("../image/bouteillemer.jpg");
 }
 .page {
-    background-image:url("../image/peinturedepart.png");
+    background-image:url("../image/peinturedepartj.jpg");
     background-image:linear-gradient( rgba(201, 224, 233, 0.5),rgba(146, 241, 210, 0.623));
 }
