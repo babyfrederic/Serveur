@@ -1,14 +1,13 @@
 nav {
     width: 100%;
     height: 70px;
-   
     position: fixed;
-    transition : all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 .anim-nav {
     background : #333;
     color: #f1f1f1;
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1;
 }
 .item {
     background-image:linear-gradient(rgba(146, 241, 210, 0.623), rgba(201, 224, 233, 0.5));
@@ -21,19 +20,50 @@ nav {
 }
 .liste {
     width: 90%;
-    height: 85%;
+    height: 125%;
     background-image:url("../image/fond.jpg");
     list-style-type: none;
     display : flex;
-    justify-content: centrer ;
+    justify-content: center ;
     align-items: center;
 }
 .home {
     width: 110%;
     height: 155%;
-    background-image:url("../image/peinturedepart.png"),url("../image/bouteillemer.jpg");
+    background-image:url("../image/peinturedepart.png");
 }
 .page {
     background-image:url("../image/peinturedepartj.jpg");
     background-image:linear-gradient( rgba(201, 224, 233, 0.5),rgba(146, 241, 210, 0.623));
+}
+.fond {
+    background-image:url("../image/bouteillemer.jpg");
+}
+
+/* effets sur clic */
+.clickAnim {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image:linear-gradient( rgba(253, 138, 7, 0.856),rgba(187, 197, 183, 0.527));
+    position: absolute;
+    z-index: 9000;
+    transform: scale(0);
+    transform-origin: center;
+    animation: clickAnim 1s ease-in-out;
+}
+
+@keyframes clickAnim {
+  0% 
+  {
+      transform: scale(0);
+  }  
+  50% {
+    transform: scale(2);
+    opocity: 1;
+    }
+    0% {
+    transform: scale(0);
+    opocity: 0;
+    }
 }
