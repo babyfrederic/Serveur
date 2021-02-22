@@ -47,10 +47,20 @@ nav {
     display : flex;
     flex-direction: column;
     justify-content: center ;
-    align-items: center;
+    align-items: 20px;
     background-image:url("../image/bateau.jpg");
 }
-.page {
+.homecontact {
+    
+    height: 100%;
+    display : flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: left;
+    background-image:url("../image/bateau.jpg");
+}
+
+.page{  
     width: 100%;
     height: 100%;
     display : flex;
@@ -96,6 +106,11 @@ h2 { display : flex;
     justify-content: center ;
     align-items: left;
 }
+
+.compta{
+    padding-left:20px;
+}
+
 .parag{
     width: 100%;
     height: 100%;
