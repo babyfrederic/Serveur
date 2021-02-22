@@ -59,7 +59,10 @@ nav {
     align-items: left;
     background-image:url("../image/bateau.jpg");
 }
-
+.fondindex {
+    
+    background-image:url("../image/bateau.jpg");
+}
 .page{  
     width: 100%;
     height: 100%;
