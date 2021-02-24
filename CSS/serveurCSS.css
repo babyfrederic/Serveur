@@ -105,7 +105,7 @@ nav {
     padding: 10;
     justify-content: center ;
     align-items: center;
-    
+    background-image:url("../image/creationfred15.jpg");
     background-image:linear-gradient( rgba(201, 224, 233, 0.5),rgba(146, 241, 210, 0.623));
 }
 h2 { display : flex;
