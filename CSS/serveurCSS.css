@@ -1,3 +1,7 @@
+
+
+
+
 *{
     margin:5;
     padding: 0;
@@ -16,6 +20,14 @@ nav {
     height: 70px;
     position: fixed;
     transition: all 0.3s ease-out;
+}
+@media screen and (min-width : 200px) and (max-width:640px)
+{nav {
+    width: 50%;
+    height: 40px;
+    position: fixed;
+    transition: all 0.3s ease-out;
+}
 }
 .anim-nav {
     background : #333;
@@ -41,6 +53,16 @@ nav {
     justify-content: center;
     align-items: center;
 }
+@media screen and (min-width : 200px) and (max-width:640px)
+{.item {
+    background-image:linear-gradient(rgba(146, 241, 209, 0.993), rgba(201, 224, 233, 0.993));
+    list-style-type: none;
+    display : flex;
+    justify-content: center;
+    align-items: center;;
+}
+}
+
 .liste {
     height: 100%;
     list-style-type: none;
